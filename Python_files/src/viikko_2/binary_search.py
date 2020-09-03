@@ -1,6 +1,6 @@
-from binary_search import binary_search # Unable to determine this.
+#from binary_search import binary_search
 
-#def binary_search(word, kotus-sanalista-suomi.txt):
+# def binary_search(word, kotus-sanalista-suomi.txt):
 #   left = 0
 #    right = len(list_of_words) - 1
 #
@@ -14,6 +14,7 @@ from binary_search import binary_search # Unable to determine this.
 #            return True
 #
 #    return False
+
 
 def read_words(file_path):
     with open(file_path, encoding='utf-8') as file:
@@ -31,4 +32,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
