@@ -1,4 +1,5 @@
-#from binary_search import binary_search
+from binary_search_default import binary_search # Left the licenses here, they act as a reference. This is example code from the course material.
+
 
 # def binary_search(word, kotus-sanalista-suomi.txt):
 #   left = 0
