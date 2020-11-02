@@ -1,0 +1,26 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 arttukesanto@Arttu-Air ~/Documents/Haaga-Helia, Trade, tietojenk\'e4sittely/Ohjelmistokehityksen teknologioita/Assignments/ArttuKesanto-python_development_technologies_course_ak/Azure, Docker assignments/Docker_Container_Assignment (master)\
+$ docker build -t docker-traffic .\
+[+] Building 1.6s (10/10) FINISHED                                                                                                                                     \
+ => [internal] load .dockerignore                                                                                                                                 0.1s\
+ => => transferring context: 126B                                                                                                                                 0.0s\
+ => [internal] load build definition from Dockerfile                                                                                                              0.0s\
+ => => transferring dockerfile: 129B                                                                                                                              0.0s\
+ => [internal] load metadata for docker.io/library/node:12-slim                                                                                                   1.5s\
+ => [internal] load build context                                                                                                                                 0.0s\
+ => => transferring context: 499B                                                                                                                                 0.0s\
+ => [1/5] FROM docker.io/library/node:12-slim@sha256:d1cad9227e3abd64f5fce754151bf9a452c60ae03430f8557367d7cffc41d2a9                                             0.0s\
+ => CACHED [2/5] WORKDIR /usr/src/app                                                                                                                             0.0s\
+ => CACHED [3/5] COPY package*.json ./                                                                                                                            0.0s\
+ => CACHED [4/5] RUN npm install                                                                                                                                  0.0s\
+ => CACHED [5/5] COPY . ./                                                                                                                                        0.0s\
+ => exporting to image                                                                                                                                            0.0s\
+ => => exporting layers                                                                                                                                           0.0s\
+ => => writing image sha256:c1b1ce44387092073dfe217866030e10569cdcc251f11723d528aaf59d047fb8                                                                      0.0s\
+ => => naming to docker.io/library/docker-traffic}

@@ -1,0 +1,3 @@
+node_modules 
+npm-debug.log
+# Node_modules will be installed when building the DOCKER CONTAINER.
